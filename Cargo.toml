@@ -7,10 +7,9 @@ authors = ["infinityabundance"]
 license = "Apache-2.0"
 repository = "https://github.com/infinityabundance/kobold-invariant-rank"
 readme = "README.md"
-publish = false
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
-kobold-archaeology = { path = "../kobold-archaeology" }
-kobold-atlas = { path = "../kobold-atlas" }
+kobold-archaeology = "0.1"
+kobold-atlas = "0.1"
